@@ -7,12 +7,13 @@ body{
 /* nav related style */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 nav>ul{
     display: flex;
     align-items: center;
+    margin-right: 100px;
 }
 nav li{
     padding: 20px;
@@ -30,6 +31,7 @@ ul li a {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
+    margin-left: 235px;
 }
 .colorfull_char{
     color: #FD6E0A;
@@ -49,15 +51,58 @@ ul li a {
 }
 
 .banner{
-    margin: 30px 30px 30px 150px;
+    margin: 30px 0px 30px 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .banner .banner_image{
     width: 500px;
+    margin-bottom: 55px;
 }
-.banner .banner_background{
-    background-image: url("images/header_bg.png");
+.banner_greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom:0 ;
+}
+.banner_title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner_description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner_content{
+    max-width: 500px;
+}
+/* main section style */
+
+/* about section style  */
+.about{
+    margin: 230px;
+    padding: 156px;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+.section_title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.section_description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
 }
